@@ -6,11 +6,6 @@
 }
 
 @font-face {
-  font-family: Playfair;
-  src: url('./fonts/PlayfairDisplay-VariableFont_wght.ttf');
-}
-
-@font-face {
   font-family: BeyondInfinity;
   src: url('./fonts/BeyondInfinity.ttf');
 }
@@ -23,7 +18,6 @@
 :root {
   --color-background: #EAC27F;
   --color-alternate: white;
-/*  --color-background: white;*/
   --color-one: #EAC27F;
   --color-two: #4AA383;
   --color-three: #1F6245;

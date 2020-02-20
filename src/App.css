@@ -1,107 +1,12 @@
+
+@import url('./components/css/fonts.css');
+@import url('./components/css/logo.css');
+@import url('./components/css/navbar.css');
+@import url('./components/css/jumbotron.css');
+@import url('./components/css/section.css');
+@import url('./components/css/footer.css');
+
+
 .App {
   background-color: var(--color-background);
-}
-
-.scrabble-header { font-family: Scrabble }
-.playfair-header { font-family: Playfair }
-.infinity-header { font-family: BeyondInfinity }
-.courier-header { font-family: Courier }
-
-.camplive-logo {
-  max-width: 90%;
-  height: 90%;
-}
-
-.word-logo {
-  max-width: 600px;
-  max-height: 100%;
-}
-
-.camp-jumbotron {
-  display: flex;
-/*  padding: 0 30px;*/
-/*  padding-top: var(--nav-height);*/
-  min-height: 100vh;
-  margin-top: calc(-1 * var(--nav-height)); 
-/*  padding-top: var(--nav-height);*/
-  background-color: var(--color-background);
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-
-.camp-jumbotron .infinity-header {
-  margin-top: 1rem;
-  font-size: 4rem;
-}
-
-.navbar {
-  text-align: left; 
-  height: 40px;
-  padding-top: 10px;
-}
-
-.navbar ul {
-  margin: 0;
-  padding-left: 20px;
-  height: 100%;
-}
-
-.navbar ul li {
-  list-style-type: none;
-  height: 100%;
-}
-
-.camplive-section {
-  background-color: var(--color-alternate);
-  color: black;
-  text-align: center;
-  padding: 60px 0;
-  font-size: 1.5rem;
-  font-weight: 400;
-}
-
-.camp-details-section {
-/*  background-color: var(--color-two);
-  color: white;*/
-  text-align: center;
-  padding: 60px 0;
-}
-
-.speakers-section {
-  padding: 60px 0; 
-}
-
-/*@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}*/
-
-.App-header {
-  background-color: var(--color-background);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-body {
-  background-color: var(--color-background);
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

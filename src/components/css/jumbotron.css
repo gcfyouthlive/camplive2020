@@ -1,0 +1,17 @@
+.camp-jumbotron {
+    display: flex;
+    /*  padding: 0 30px;*/
+    /*  padding-top: var(--nav-height);*/
+    min-height: 100vh;
+    margin-top: calc(-1 * var(--nav-height));
+    /*  padding-top: var(--nav-height);*/
+    background-color: var(--color-background);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.camp-jumbotron .infinity-header {
+    margin-top: 1rem;
+    font-size: 4rem;
+}

@@ -1,0 +1,21 @@
+.scrabble-header {
+    font-family: Scrabble
+}
+.playfair-header {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.infinity-header {
+    font-family: BeyondInfinity
+}
+.courier-header {
+    font-family: Courier
+}
+
+.raleway-sub {
+    font-family: Raleway, serif;
+    font-style: normal;
+    font-weight: lighter;
+}

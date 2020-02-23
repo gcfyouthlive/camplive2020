@@ -1,0 +1,12 @@
+.camp-carousel {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.camp-carousel .carousel-caption {
+  color: white;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}

@@ -1,12 +1,12 @@
 .navbar {
+/*  background-color: var(--color-two);*/
     text-align: left;
-    height: 40px;
-    padding-top: 10px;
+    height: 50px;
 }
 
 .navbar ul {
     margin: 0;
-    padding-left: 20px;
+    padding-left: 0;
     height: 100%;
 }
 

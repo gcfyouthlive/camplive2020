@@ -1,0 +1,13 @@
+.tagline-container {
+  max-width: var(--breakpoint-sm);
+  color: black;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.25rem;
+}
+
+.tagline-text {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}

@@ -1,51 +1,33 @@
 import React from "react";
-//materialui
-import Container from "@material-ui/core/Container";
-import Grid from "@material-ui/core/Grid";
-//components
-import {WordLogo} from "./logo";
+import "./jumbotron.css";
 
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import { WordLogo } from "./logos";
+import { FindOutMoreButton, RegisterButton } from "./buttons";
 
 export function HSCampJumbotron() {
-    return (
-        <div class="camp-jumbotron">
-            <Container maxWidth="md" style={{"text-align":"center"}}>
-                <Grid container spacing={2} justify="center" alignItems="center">
-                    <Grid item xs={12} md>
-                        <div style={{"padding":"1rem"}}><WordLogo /></div>
-                        <div className={"playfair-header"}>High School Camp 2020</div>
-                    </Grid>
-                </Grid>
-            </Container>
-        </div>
-    );
-}
-
-//TODO: Change to College Camp Logo
-export function ColCampJumbotron() {
-    return (
-        <div class="camp-jumbotron">
-            <Container maxWidth="md" style={{"text-align":"center"}}>
-                <Grid container spacing={2} justify="center" alignItems="center">
-                    <Grid item xs={12} md>
-                        <div style={{"padding":"1rem"}}><WordLogo /></div>
-                    </Grid>
-                </Grid>
-            </Container>
-        </div>
-    );
-}
-
-export function BothCampJumbotron() {
-    return (
-        <div class="camp-jumbotron">
-            <Container maxWidth="md" style={{"text-align":"center"}}>
-                <Grid container spacing={2} justify="center" alignItems="center">
-                    <Grid item xs={6} md>
-                        <div style={{"padding":"1rem"}}><WordLogo /></div>
-                    </Grid>
-                </Grid>
-            </Container>
-        </div>
-    );
+  return (
+    <div className="camp-jumbotron">
+      <Container>
+        <Row>
+          <Col sm={12}><WordLogo /></Col>
+          <Col sm={12}>
+            <div className="date">May 28-31, 2020</div>
+            <div className="venue">Hacienda Gracia, Pampanga</div>
+            <div className="years">For Incoming Gr. 7 &mdash; Gr. 12</div>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="text-right">
+            <FindOutMoreButton />
+          </Col>
+          <Col className="text-left">
+            <RegisterButton />
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
 }

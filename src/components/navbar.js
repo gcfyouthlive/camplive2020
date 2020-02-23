@@ -1,19 +1,20 @@
-import {CampliveLogo} from "./logo";
 import React from "react";
-import Link from "@material-ui/core/Link";
+import "./navbar.css"; 
+
+import { CampliveLogo } from "./logos";
 
 function NavbarMenu(props) {
-    return (
-        <div></div>
-    );
+  return (
+      <div></div>
+  );
 }
 
-export default function Navbar(props) {
-    return (
-        <div class="navbar">
-            <ul>
-                <li><CampliveLogo /></li>
-            </ul>
-        </div>
-    );
+//        <li><CampliveLogo /></li>
+export default function Navbar() {
+  return (
+    <div class="navbar">
+      <ul>
+      </ul>
+    </div>
+  );
 }

@@ -1,19 +1,29 @@
 import React from 'react';
-//css
-import './App.css';
+//assets
+
+//components
+import Navbar from "./components/navbar";
+import { HSCampJumbotron } from './components/jumbotron';
+import Sections from "./components/sections";
+import Footer from './components/footer';
+import './App.css'
+
+function CampCountdown() {
+  return (
+    <h2>{new Date().toLocaleTimeString()}</h2>
+  );
+}
 
 function App() {
   return (
     <div class="App">
       <Navbar />
-      <CampJumbotron />
-      <CampliveSection />
-      <CampDetailsSection bgColor="#EAC27F" textColor="#222"/>
-      <SpeakersSection bgColor="#EAC27F"/>
-      <SpeakersSection bgColor="#FFF"/>
+      <HSCampJumbotron/>
+      <Sections />
       <Footer />
     </div>
-  );
+  )
 }
 
 export default App;
+

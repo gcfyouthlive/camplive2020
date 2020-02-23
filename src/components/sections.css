@@ -1,0 +1,39 @@
+.tagline-section {
+  display: flex;
+  align-items: center;
+  min-height: 33vh !important;
+  background-color: white;
+}
+
+.carousel-section {
+  padding: 0;
+}
+
+.expect-section {
+  background-color: var(--color-three);
+  color: white;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.campfee-section {
+  background-color: var(--color-one);
+  padding: 60px 0;
+}
+
+.speakers-section {
+  background-color: var(--color-two);
+  color: black;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.speakers-section {
+  background-color: var(--color-four);
+  padding: 60px 0;
+}
+
+.faqs-section {
+  background-color: var(--color-five);
+  padding: 60px 0;
+}

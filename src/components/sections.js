@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import CampTagline from "./tagline";
 import CampCarousel from "./carousel";
+import CampFee from "./campfee";
 import CampSpeakers from "./speakers";
 
 export default function Sections() {
@@ -26,6 +27,7 @@ export default function Sections() {
           </Col>
 
           <Col sm={12} md={6} xl={4} className="campfee-section">
+            <CampFee />
           </Col>
 
           <Col sm={12} md={6} xl={4} className="speakers-section">
@@ -34,7 +36,7 @@ export default function Sections() {
 
           <Col sm={12} md={6} xl={4} className="faqs-section">
           </Col>
-       
+
         </Row>
       </Container>
     </div>

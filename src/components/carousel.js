@@ -20,7 +20,7 @@ export default function CampCarousel() {
           alt="What is Word?"
         />
         <Carousel.Caption>
-          <h3 style={{"font-family":"Playfair Display"}}>Word.</h3>
+          <h3 style={{"fontFamily":"Playfair Display"}}>Word.</h3>
           <p>YEAH IM SLEEPY</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -31,7 +31,7 @@ export default function CampCarousel() {
           alt="What is CampLIVE?"
         />
         <Carousel.Caption>
-          <img src={camplive_logo} height="35px"/>
+          <img src={camplive_logo} height="35px" alt="CampLIVE"/>
           <p>Our annual 4-day camp is packed with activities that will help you know Christ more through His word.</p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -43,7 +43,7 @@ export default function CampCarousel() {
         />
 
         <Carousel.Caption>
-          <img src={youthlive_logo} height="35px"/>
+          <img src={youthlive_logo} height="35px" alt="YouthLIVE"/>
           <p>We are a community of high school and college students committed to Jesus's call to discipleship.</p>
         </Carousel.Caption>
       </Carousel.Item>

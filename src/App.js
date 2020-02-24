@@ -1,22 +1,14 @@
 import React from 'react';
-//assets
+import './App.css'
 
-//components
 import Navbar from "./components/navbar";
 import { HSCampJumbotron } from './components/jumbotron';
 import Sections from "./components/sections";
 import Footer from './components/footer';
-import './App.css'
-
-function CampCountdown() {
-  return (
-    <h2>{new Date().toLocaleTimeString()}</h2>
-  );
-}
 
 function App() {
   return (
-    <div class="App">
+    <div className="App">
       <Navbar />
       <HSCampJumbotron/>
       <Sections />
@@ -26,4 +18,3 @@ function App() {
 }
 
 export default App;
-

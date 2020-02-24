@@ -2,16 +2,10 @@
   --color-button: var(--color-five);
 }
 
-.btn:focus,
-.btn:active {
-   outline: none !important;
-   box-shadow: none;
-}
-
-.call-to-action {
+.btn.call-to-action {
+  outline: none !important;
+  box-shadow: none;
   font-family: "Raleway";
-  margin-top: 15px;
-  margin-bottom: 15px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-right: 25px;
@@ -22,18 +16,16 @@
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .1em;
-  color: var(--color-button);
-  border-color: var(--color-button);
-  background-color: transparent;
+  color: var(--color-button) !important;
+  border-color: var(--color-button) !important;
+  background-color: transparent !important;
   font-weight: 700;
 }
 
-.btn.call-to-action:hover,
-.btn.call-to-action:focus,
-.btn.call-to-action:active:focus {
-  color: white;
-  border-color: transparent;
-  background-color: var(--color-button);
+.btn.call-to-action:focus:hover:active {
+  color: white !important;
+  border-color: transparent !important;
+  background-color: var(--color-button) !important;
   outline: none !important;
   box-shadow: none !important;
 }

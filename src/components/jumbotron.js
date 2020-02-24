@@ -9,7 +9,7 @@ import { FindOutMoreButton, RegisterButton } from "./buttons";
 
 export function HSCampJumbotron() {
   return (
-    <div className="camp-jumbotron">
+    <div className="camp-jumbotron d-flex text-center align-items-center">
       <Container>
         <Row>
           <Col sm={12}><WordLogo /></Col>
@@ -19,11 +19,11 @@ export function HSCampJumbotron() {
             <div className="years">For Incoming Gr. 7 &mdash; Gr. 12</div>
           </Col>
         </Row>
-        <Row>
-          <Col className="text-right">
+        <Row className="mt-3">
+          <Col sm={6} className="mb-1 mb-sm-0 text-sm-right">
             <FindOutMoreButton />
           </Col>
-          <Col className="text-left">
+          <Col sm={6} className="mt-1 mt-sm-0 text-sm-left">
             <RegisterButton />
           </Col>
         </Row>

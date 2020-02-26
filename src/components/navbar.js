@@ -1,18 +1,12 @@
 import React from "react";
 import "./navbar.css";
-<<<<<<< HEAD
-
-=======
 //Components
->>>>>>> master
 import { CampliveLogo } from "./logos";
 import Container from 'react-bootstrap/Container';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 
-<<<<<<< HEAD
-=======
 function NavbarMenu(props) {
   return (
     <div>
@@ -26,7 +20,7 @@ function NavbarMenu(props) {
 }
 
 //        <li><CampliveLogo /></li>
->>>>>>> master
+
 export default function Navbar() {
   return (
     <div className="navbar">

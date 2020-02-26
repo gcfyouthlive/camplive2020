@@ -4,17 +4,12 @@ import "./sections.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-<<<<<<< HEAD
-import CampTagline from "./tagline";
-import CampCarousel from "./carousel";
-import CampFee from "./campfee";
-import CampSpeakers from "./speakers";
-=======
+
 import CampTagline from "./sec-parts/tagline";
 import CampCarousel from "./sec-parts/carousel";
 import CampSpeakers from "./sec-parts/speakers";
 import CampFaq from "./sec-parts/faq";
->>>>>>> master
+import CampFee from "./campfee";
 
 export default function Sections() {
   return (

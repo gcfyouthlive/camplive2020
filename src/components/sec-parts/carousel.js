@@ -3,12 +3,12 @@ import "./carousel.css";
 
 import Carousel from "react-bootstrap/Carousel";
 
-import word_image from "../img/WORD.jpg";
-import camplive_image from "../img/CAMPLIVE.jpg";
-import youthlive_image from "../img/YOUTHLIVE.jpg";
+import word_image from "../../img/WORD.jpg";
+import camplive_image from "../../img/CAMPLIVE.jpg";
+import youthlive_image from "../../img/YOUTHLIVE.jpg";
 
-import camplive_logo from "../svg/camplive-white.svg";
-import youthlive_logo from "../svg/youthlive-white.svg";
+import camplive_logo from "../../svg/camplive-white.svg";
+import youthlive_logo from "../../svg/youthlive-white.svg";
 
 export default function CampCarousel() {
   return (

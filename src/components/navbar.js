@@ -1,11 +1,21 @@
 import React from "react";
-import "./navbar.css"; 
-
+import "./navbar.css";
+//Components
 import { CampliveLogo } from "./logos";
+import Container from 'react-bootstrap/Container';
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
 
 function NavbarMenu(props) {
   return (
-      <div></div>
+    <div>
+      <Container fluid={true}>
+        <Row>
+          <Col></Col>
+        </Row>
+      </Container>
+    </div>
   );
 }
 

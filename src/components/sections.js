@@ -8,6 +8,7 @@ import Col from "react-bootstrap/Col";
 import CampTagline from "./sec-parts/tagline";
 import CampCarousel from "./sec-parts/carousel";
 import CampSpeakers from "./sec-parts/speakers";
+import CampReg from "./registration";
 import CampFaq from "./sec-parts/faq";
 import CampFee from './sec-parts/campfee';
 import CampExpect from './sec-parts/expect'
@@ -37,6 +38,9 @@ export default function Sections() {
             <CampFaq />
           </Col>
 
+        </Row>
+        <Row>
+          <CampReg />
         </Row>
       </Container>
     </div>

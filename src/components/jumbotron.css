@@ -1,6 +1,7 @@
 .camp-jumbotron {
   min-height: 100vh;
   margin-top: calc(-1 * var(--nav-height));
+  padding-bottom: calc(0.5 * var(--nav-height));
   background-color: var(--color-background);
   font-family: "Raleway";
   color: black;

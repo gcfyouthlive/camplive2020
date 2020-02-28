@@ -9,7 +9,8 @@ import CampTagline from "./sec-parts/tagline";
 import CampCarousel from "./sec-parts/carousel";
 import CampSpeakers from "./sec-parts/speakers";
 import CampFaq from "./sec-parts/faq";
-import CampFee from "./campfee";
+import CampFee from './sec-parts/campfee';
+import CampExpect from './sec-parts/expect'
 
 export default function Sections() {
   return (
@@ -17,21 +18,22 @@ export default function Sections() {
       <Container fluid={true}>
         <Row>
 
-          <Col sm={12} md={6} xl={4} className="tagline-section">
+          <Col sm={12} md={6} /*xl={4}*/ className="tagline-section">
             <CampTagline />
           </Col>
-          <Col sm={12} md={6} xl={4} className="carousel-section">
+          <Col sm={12} md={6} /*xl={4}*/ className="carousel-section">
             <CampCarousel />
           </Col>
-          <Col sm={12} md={6} xl={4} className="expect-section">
+          <Col sm={12} md={6} /*xl={4}*/ className="expect-section">
+            <CampExpect />
           </Col>
-          <Col sm={12} md={6} xl={4} className="campfee-section">
+          <Col sm={12} md={6} /*xl={4}*/ className="campfee-section">
             <CampFee />
           </Col>
-          <Col sm={12} md={6} xl={4} className="speakers-section">
+          <Col sm={12} md={6} /*xl={4}*/ className="speakers-section">
             <CampSpeakers />
           </Col>
-          <Col sm={12} md={6} xl={4} className="faqs-section">
+          <Col sm={12} md={6} /*xl={4}*/ className="faqs-section">
             <CampFaq />
           </Col>
 

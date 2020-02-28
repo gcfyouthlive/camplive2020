@@ -1,6 +1,5 @@
 import React from "react";
 import './footer.css';
-
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 import yl from "../svg/youthlive-white.svg"

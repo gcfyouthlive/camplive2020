@@ -5,7 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //components
 import Navbar from "./components/navbar";
 import { HSCampJumbotron } from './components/jumbotron';
-import Sections from "./components/sections";
+import Sections from "./components/sections"
+import RegForm from './components/regform'
 import Footer from './components/footer';
 
 function CampCountdown() {
@@ -20,7 +21,9 @@ export default function App() {
       <Navbar />
       <HSCampJumbotron/>
       <Sections />
+      <RegForm />
       <Footer />
     </div>
   )
 }
+

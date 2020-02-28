@@ -1,6 +1,5 @@
 .tagline-container {
   max-width: var(--breakpoint-sm);
-  color: black;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 500;

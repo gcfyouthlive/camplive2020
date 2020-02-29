@@ -16,12 +16,13 @@ export default function CampCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={word_image}
-          alt="What is Word?"
+          src={youthlive_image}
+          alt="What is YouthLIVE?"
         />
+
         <Carousel.Caption>
-          <h3 style={{"fontFamily":"Playfair Display"}}>Word.</h3>
-          <p>YEAH IM SLEEPY</p>
+          <img src={youthlive_logo} height="35px" alt="YouthLIVE"/>
+          <p>We are a community of high school and college students committed to Jesus's call to discipleship.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -38,13 +39,12 @@ export default function CampCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={youthlive_image}
-          alt="What is YouthLIVE?"
+          src={word_image}
+          alt="What is Word?"
         />
-
         <Carousel.Caption>
-          <img src={youthlive_logo} height="35px" alt="YouthLIVE"/>
-          <p>We are a community of high school and college students committed to Jesus's call to discipleship.</p>
+          <h3 style={{"fontFamily":"Playfair Display"}}>Word.</h3>
+          <p>YEAH IM SLEEPY</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

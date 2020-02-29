@@ -25,14 +25,8 @@ export default function Sections() {
           <Col sm={12} md={6} /*xl={4}*/ className="carousel-section">
             <CampCarousel />
           </Col>
-          <Col sm={12} md={6} /*xl={4}*/ className="expect-section">
-            <CampExpect />
-          </Col>
           <Col sm={12} md={6} /*xl={4}*/ className="campfee-section">
             <CampFee />
-          </Col>
-          <Col sm={12} md={6} /*xl={4}*/ className="speakers-section">
-            <CampSpeakers />
           </Col>
           <Col sm={12} md={6} /*xl={4}*/ className="faqs-section">
             <CampFaq />

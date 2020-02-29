@@ -17,12 +17,22 @@ function CustomAccordion({ children, eventKey }) {
 
 export default function CampFee() {
   return (
-    <Container>
+    <Container className="campfee-container">
+      <h2>Camp Fees</h2>
+      <div className="fee">&#8369; 2,500.00</div>
+      <div className="date">Until April 19</div>
+
+      <div className="fee">&#8369; 3,200.00</div>
+      <div className="date">Regular Fee</div>
+    </Container>
+  );
+}
+/*
       <div className="fee">
         Early Bird Fee (until April 19): <b>&#8369; 2,500.00</b>
       </div>
       <div className="fee">
-        Regular Fee (until slots are filled):  <b>&#8369; 3,200.00</b>
+        Regular Fee:  <b>&#8369; 3,200.00</b>
       </div>
       <div className="payment-info">
         <Accordion>
@@ -40,4 +50,4 @@ export default function CampFee() {
       </div>
     </Container>
   );
-}
+}*/

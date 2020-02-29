@@ -49,7 +49,7 @@ highlight {
 }
 
 highlight-alt {
-  color: var(--color-three)
+  color: var(--color-three);
 }
 
 @media only screen and (max-width: 768px) {

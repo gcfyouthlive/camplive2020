@@ -17,10 +17,10 @@ function CustomAccordion({ children, eventKey }) {
 }
 export default function CampFaq() {
   return (
-    <div>
+    <div className="campfaq-div">
       <h3 className={'align-left'}>Frequently Asked Questions</h3>
       <Accordion>
-          <CustomAccordion eventKey="0"><label>&#187;Who can come to camp?</label></CustomAccordion>
+          <CustomAccordion eventKey="0"><label>&#187; Who can come to camp?</label></CustomAccordion>
           <Accordion.Collapse eventKey="0">
             <Container>
               <Dropdown.Divider/>
@@ -32,7 +32,7 @@ export default function CampFaq() {
               <Dropdown.Divider/>
             </Container>
           </Accordion.Collapse>
-        <CustomAccordion eventKey="1"><label>&#187;What can I expect to happen during camp?</label></CustomAccordion>
+        <CustomAccordion eventKey="1"><label>&#187; What can I expect to happen during camp?</label></CustomAccordion>
           <Accordion.Collapse eventKey="1">
             <Container>
               <Dropdown.Divider/>
@@ -42,7 +42,7 @@ export default function CampFaq() {
               <Dropdown.Divider/>
             </Container>
           </Accordion.Collapse>
-          <CustomAccordion eventKey="2"><label>&#187;What's included in the camp fee?</label></CustomAccordion>
+          <CustomAccordion eventKey="2"><label>&#187; What's included in the camp fee?</label></CustomAccordion>
           <Accordion.Collapse eventKey="2">
             <Container>
               <Dropdown.Divider/>
@@ -52,7 +52,7 @@ export default function CampFaq() {
               <Dropdown.Divider/>
             </Container>
           </Accordion.Collapse>
-        <CustomAccordion eventKey="3"><label>&#187;What is a Y-Group?</label></CustomAccordion>
+        <CustomAccordion eventKey="3"><label>&#187; What is a Y-Group?</label></CustomAccordion>
         <Accordion.Collapse eventKey="3">
           <Container>
             <Dropdown.Divider/>
@@ -63,7 +63,7 @@ export default function CampFaq() {
             <Dropdown.Divider/>
           </Container>
         </Accordion.Collapse>
-        <CustomAccordion eventKey="4"><label>&#187;Will I get to meet my buzz group leader and members before camp?</label></CustomAccordion>
+        <CustomAccordion eventKey="4"><label>&#187; Will I get to meet my buzz group leader and members before camp?</label></CustomAccordion>
         <Accordion.Collapse eventKey="4">
           <Container>
             <Dropdown.Divider/>
@@ -73,7 +73,7 @@ export default function CampFaq() {
             <Dropdown.Divider/>
           </Container>
         </Accordion.Collapse>
-        <CustomAccordion eventKey="5"><label>&#187;What if I have more questions?</label></CustomAccordion>
+        <CustomAccordion eventKey="5"><label>&#187; What if I have more questions?</label></CustomAccordion>
         <Accordion.Collapse eventKey="5">
           <Container>
             <Dropdown.Divider/>

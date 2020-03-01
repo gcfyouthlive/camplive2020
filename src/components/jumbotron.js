@@ -22,10 +22,10 @@ export function HSCampJumbotron() {
         </Row>
         <Row className="mt-3">
           <Col sm={6} className="mb-1 mb-sm-0 text-sm-right">
-            <ButtonCTA href="#about" text={'Find Out More'}/>
+            <ButtonCTA href={'#regform'} text={'Register Now'} />
           </Col>
           <Col sm={6} className="mt-1 mt-sm-0 text-sm-left">
-            <ButtonCTA href={'#regform'} text={'Register Now'} />
+            <ButtonCTA href="#about" text={'Find Out More'}/>
           </Col>
         </Row>
       </Container>

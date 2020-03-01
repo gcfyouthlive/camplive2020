@@ -1,0 +1,11 @@
+#regform {
+    /*padding-top: calc(0.5 * var(--nav-height));*/
+    /*padding-bottom: calc(0.5 * var(--nav-height));*/
+
+    background-color: var(--color-background);
+    color: black;
+}
+
+.step-img {
+    width: 50px;
+}

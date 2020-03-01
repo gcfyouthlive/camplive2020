@@ -1,19 +1,7 @@
 import React from "react";
 import "./campfee.css";
 
-import { Accordion, Container } from "react-bootstrap"
-import { useAccordionToggle } from "react-bootstrap/AccordionToggle"
-import Dropdown from "react-bootstrap/Dropdown";
-
-function CustomAccordion({ children, eventKey }) {
-  const decoratedOnClick = useAccordionToggle(eventKey);
-
-  return (
-    <div onClick={decoratedOnClick}>
-      {children}
-    </div>
-  );
-}
+import { Container } from "react-bootstrap"
 
 export default function CampFee() {
   return (

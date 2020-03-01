@@ -47,18 +47,17 @@ export default function CampFaq() {
           <Container>
             <Dropdown.Divider/>
             <p>
-              Y-Group is short for Youth Group.
-              It's a group of people who journey together in life with the Lord.
+              A Y-Group (Youth Group) is a small group of like-aged youth who gather regularly to learn more about God in fellowship. Every camper will be part of a Y-Group led by an Ate/Kuya.
             </p>
             <Dropdown.Divider/>
           </Container>
         </Accordion.Collapse>
-        <CustomAccordion eventKey="4"><label>&#187; Will I get to meet my Y-Group before camp?</label></CustomAccordion>
+        <CustomAccordion eventKey="4"><label>&#187; When can I meet my Y-Group?</label></CustomAccordion>
         <Accordion.Collapse eventKey="4">
           <Container>
             <Dropdown.Divider/>
             <p>
-              Yes, we will have a pre-camp fellowship, where you can meet your fellow campers and camp leaders.
+              There will be a pre-camp fellowship where every camper will be introduced to their Y-Groups.
             </p>
             <Dropdown.Divider/>
           </Container>
@@ -68,7 +67,7 @@ export default function CampFaq() {
             <Container>
               <Dropdown.Divider/>
               <p>
-                Food, lodging, and a souvenir camp shirt.
+                Food, lodging, and a small token of rememberance will all be included in the camp fee.
               </p>
               <Dropdown.Divider/>
             </Container>

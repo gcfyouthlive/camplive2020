@@ -5,7 +5,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { WordLogo } from "./logos";
-import { FindOutMoreButton, RegisterButton } from "./buttons";
+import ButtonCTA from "./buttons";
+import {HashLink} from "react-router-hash-link";
 
 export function HSCampJumbotron() {
   return (
@@ -21,10 +22,10 @@ export function HSCampJumbotron() {
         </Row>
         <Row className="mt-3">
           <Col sm={6} className="mb-1 mb-sm-0 text-sm-right">
-            <FindOutMoreButton />
+            <ButtonCTA href="#about" text={'Find Out More'}/>
           </Col>
           <Col sm={6} className="mt-1 mt-sm-0 text-sm-left">
-            <RegisterButton />
+            <ButtonCTA href={'#regform'} text={'Register Now'} />
           </Col>
         </Row>
       </Container>

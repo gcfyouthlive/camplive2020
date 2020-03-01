@@ -8,17 +8,16 @@ import Col from "react-bootstrap/Col";
 import CampTagline from "./sec-parts/tagline";
 import CampCarousel from "./sec-parts/carousel";
 import CampSpeakers from "./sec-parts/speakers";
-import CampReg from "./registration";
+import CampReg from './sec-parts/regsteps'
 import CampFaq from "./sec-parts/faq";
 import CampFee from './sec-parts/campfee';
 import CampExpect from './sec-parts/expect'
 
 export default function Sections() {
   return (
-    <div>
+    <div id="about">
       <Container fluid={true}>
         <Row>
-
           <Col sm={12} md={6} /*xl={4}*/ className="tagline-section">
             <CampTagline />
           </Col>
@@ -31,10 +30,11 @@ export default function Sections() {
           <Col sm={12} md={6} /*xl={4}*/ className="faqs-section">
             <CampFaq />
           </Col>
-
         </Row>
         <Row>
-          <CampReg />
+          <Col xs={12} className={'steps-section'}>
+            <CampReg/>
+          </Col>
         </Row>
       </Container>
     </div>

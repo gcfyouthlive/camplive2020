@@ -257,10 +257,12 @@ class RegForm2 extends React.Component {
                                                   onChange={handleChange}
                                                   isInvalid={!!errors.year}
                                     >
-                                        <option>1st Year</option>
-                                        <option>2nd Year</option>
-                                        <option>3rd Year</option>
-                                        <option>4th Year</option>
+                                        <option>Grade 7</option>
+                                        <option>Grade 8</option>
+                                        <option>Grade 9</option>
+                                        <option>Grade 10</option>
+                                        <option>Grade 11</option>
+                                        <option>Grade 12</option>
                                     </Form.Control>
                                     <Form.Control.Feedback type="invalid">
                                         {touched.year && !!errors.year}
@@ -346,7 +348,7 @@ class RegForm2 extends React.Component {
                             {/*    />*/}
                             {/*</Form.Group>*/}
                             <Button type="submit">Submit</Button>
-                            <pre>{JSON.stringify(values)}</pre>
+                            {/*<pre>{JSON.stringify(values)}</pre>*/}
                         </form>
                     )
                 }

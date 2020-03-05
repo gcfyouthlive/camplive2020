@@ -11,7 +11,7 @@ import Form from "react-bootstrap/Form";
 import { Formik } from 'formik';
 import * as yup from 'yup';
 
-const endpoint = 'http://localhost:8000/api/';
+const endpoint = 'https://api.gcfyouthlive.com/api/';
 
 const sleep = (milliseconds) => {
     return new Promise(resolve => setTimeout(resolve, milliseconds))

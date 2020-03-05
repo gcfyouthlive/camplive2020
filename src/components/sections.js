@@ -4,37 +4,35 @@ import "./sections.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import CampTagline from "./tagline";
-import CampCarousel from "./carousel";
-import CampSpeakers from "./speakers";
+
+import CampTagline from "./sec-parts/tagline";
+import CampCarousel from "./sec-parts/carousel";
+import CampReg from './sec-parts/regsteps'
+import CampFaq from "./sec-parts/faq";
+import CampFee from './sec-parts/campfee';
 
 export default function Sections() {
   return (
-    <div>
+    <div id="about">
       <Container fluid={true}>
         <Row>
-
-          <Col sm={12} md={6} xl={4} className="tagline-section">
+          <Col sm={12} md={6} /*xl={4}*/ className="tagline-section">
             <CampTagline />
           </Col>
-
-          <Col sm={12} md={6} xl={4} className="carousel-section">
+          <Col sm={12} md={6} /*xl={4}*/ className="carousel-section">
             <CampCarousel />
           </Col>
-
-          <Col sm={12} md={6} xl={4} className="expect-section">
+          <Col sm={12} md={6} /*xl={4}*/ className="campfee-section">
+            <CampFee />
           </Col>
-
-          <Col sm={12} md={6} xl={4} className="campfee-section">
+          <Col sm={12} md={6} /*xl={4}*/ className="faqs-section">
+            <CampFaq />
           </Col>
-
-          <Col sm={12} md={6} xl={4} className="speakers-section">
-            <CampSpeakers />
+        </Row>
+        <Row>
+          <Col xs={12} className={'steps-section'}>
+            <CampReg/>
           </Col>
-
-          <Col sm={12} md={6} xl={4} className="faqs-section">
-          </Col>
-       
         </Row>
       </Container>
     </div>

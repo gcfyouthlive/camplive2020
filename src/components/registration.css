@@ -1,0 +1,5 @@
+.campreg-container {
+  /*max-width: var(--breakpoint-lg);*/
+  background-color: var(--color-background);
+  color: black;
+}

@@ -1,13 +1,10 @@
 .camp-jumbotron {
-  font-family: "Raleway";
-  color: black;
-  display: flex;
   min-height: 100vh;
   margin-top: calc(-1 * var(--nav-height));
+  padding-bottom: calc(0.5 * var(--nav-height));
   background-color: var(--color-background);
-  text-align: center;
-  align-items: center;
-  justify-content: center;
+  font-family: "Raleway";
+  color: black;
 }
 
 .camp-jumbotron .container {
@@ -21,7 +18,7 @@
 
 .camp-jumbotron .date {
   font-weight: 500;
-  font-size: 1.2rem; 
+  font-size: 1.2rem;
 }
 
 .camp-jumbotron .venue {
@@ -30,15 +27,6 @@
 }
 
 .camp-jumbotron .years {
-  font-family: "Raleway";
   font-weight: 500;
   font-size: 1rem;
-}
-
-.camp-jumbotron .container {
-  max-width: var(--breakpoint-sm);
-}
-
-.camp-jumbotron .action-buttons > button {
-  margin-right: 7px;
 }

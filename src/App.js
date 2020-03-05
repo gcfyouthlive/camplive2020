@@ -15,13 +15,12 @@ import Sections from "./components/sections"
 import CampReg from './components/registration'
 import Footer from './components/footer';
 
-// function CampCountdown() {
-//     return (
-//         <h2>{new Date().toLocaleTimeString()}</h2>
-//     );
-// }
+
+
 
 export default function App() {
+    const endpoint = React.createContext('http://localhost:8000/api/');
+    console.log('endpoint', toString(endpoint));
     return (
         <div className="App">
             <Router>

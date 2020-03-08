@@ -29,7 +29,7 @@ export default function App() {
                 <Sections/>
                 <Switch>
                     <Route path={'/form'}>
-                        <CheckBack/>
+                        <CampReg/>
                     </Route>
                 </Switch>
                 <Footer/>

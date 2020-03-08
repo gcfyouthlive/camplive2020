@@ -14,7 +14,7 @@ import {HSCampJumbotron} from './components/jumbotron'
 import Sections from "./components/sections"
 import CampReg from './components/registration'
 import Footer from './components/footer';
-
+import CheckBack from './components/checkback'
 
 
 
@@ -29,7 +29,7 @@ export default function App() {
                 <Sections/>
                 <Switch>
                     <Route path={'/form'}>
-                        <CampReg/>
+                        <CheckBack/>
                     </Route>
                 </Switch>
                 <Footer/>

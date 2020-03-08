@@ -396,7 +396,7 @@ export default function CampReg() {
     return (
         <div /*id={'form'}*/ className={' campreg-container'}>
             <Container fluid={false}>
-                <RegForm2 />
+                <RegForm2 /><br/>
             </Container>
         </div>
     );

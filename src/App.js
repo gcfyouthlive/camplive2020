@@ -30,7 +30,6 @@ export default function App() {
                 <Switch>
                     <Route path={'/form'}>
                         <CampReg/>
-                        <br/>
                     </Route>
                 </Switch>
                 <Footer/>

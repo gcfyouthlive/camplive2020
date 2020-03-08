@@ -85,7 +85,7 @@ class RegForm2 extends React.Component {
                                 console.log('status', this.status);
                                 var responseText = this.responseText;
                                 if (this.status === 0) {
-                                    alert("Sorry! API Server is temporarily unavailable. Please try again in a bit! ERR_CODE: ERR_CONNECTION_REFUSED")
+                                    alert("Sorry! API Server is temporarily unavailable. Please try again in a bit or message us @gcfyouthlive. \r ERR_CODE: ERR_CONNECTION_REFUSED")
                                 }
 
                                 if (this.status === 400) {
@@ -93,7 +93,7 @@ class RegForm2 extends React.Component {
                                 }
                                 if (this.status === 500) {
                                     alert("Uh oh! We've hit a major runtime error. Kindly try again or " +
-                                        "contact us at @gcfyouthlive for further support. ERR_CODE: "+this.status+''+this.responseText)
+                                        "contact us at @gcfyouthlive for further support.\r\r ERR_CODE: "+this.status+''+this.responseText)
                                 }
                                 if (this.status === 201 ) {
                                     alert("Success! Check your E-mail for further instructions. See you in camp!");

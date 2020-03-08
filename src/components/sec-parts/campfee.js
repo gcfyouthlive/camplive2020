@@ -8,7 +8,7 @@ export default function CampFee() {
     <Container className="campfee-container">
       <h2>Camp Fees</h2>
       <div className="fee">&#8369; 2,500.00</div>
-      <div className="date">Until April 19</div>
+      <div className="date">Until April 5</div>
 
       <div className="fee">&#8369; 3,200.00</div>
       <div className="date">Regular Fee</div>
